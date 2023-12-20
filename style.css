@@ -1,0 +1,83 @@
+body {
+  background-color: #fbf7f1;
+  font-family: "Kanit";
+  padding-left: 200px;
+}
+.titulo {
+  color: #53240c;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  color: #53240c;
+  font-size: 32px;
+  margin: 20px 0;
+}
+ul {
+  list-style: none;
+}
+.prato_nome {
+  text-decoration: none;
+  font-size: 24px;
+  color: #301203;
+}
+
+.imagem_banner {
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+.imagem_banner:hover {
+  transform: scale(1.01);
+}
+
+.menu {
+  background-color: #f7efe4;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.menu_lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu_item {
+  color: #eb5447;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.menu_item:hover {
+  background-color: #eb4f37;
+  color: white;
+  border-radius: 20px;
+}
+
+.ingredientes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lista_passos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.passo_imagem {
+  max-width: 400px;
+  border-radius: 20px 0px 0px 20px;
+}
+.passo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7efe4;
+  max-width: 50vw;
+  border-radius: 20px;
+}
